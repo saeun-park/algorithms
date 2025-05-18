@@ -56,4 +56,4 @@ algorithms/
 
 ### Contact
 
-궁금한 점이나 피드백은 언제든지 Issues나 Pull Request로 남겨주세요 !
+궁금한 점이나 피드백은 언제든지 **Issues**나 **PR**로 남겨주세요 !
