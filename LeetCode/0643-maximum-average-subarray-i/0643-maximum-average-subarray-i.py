@@ -1,12 +1,12 @@
 class Solution:
     def findMaxAverage(self, nums: List[int], k: int) -> float:
 
-        pre = sum(nums[0:k]) # 최댓값
-        maxnum = pre
+        window = sum(nums[0:k]) # 최댓값
+        maxnum = window
 
         for i in range(len(nums)-k):
-            pre = pre-nums[i]+nums[i+k]
-            if pre >= maxnum:
-                maxnum = pre
+            window = window-nums[i]+nums[i+k]
+            if window >= maxnum:
+                maxnum = window
 
         return maxnum / k
