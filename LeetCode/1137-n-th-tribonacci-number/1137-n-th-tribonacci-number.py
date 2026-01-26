@@ -1,9 +1,11 @@
 class Solution:
-    memo = {0:0, 1:1, 2:1}
     def tribonacci(self, n: int) -> int:
 
-        if n in Solution.memo:
-            return Solution.memo[n]
+        if n==0: return 0
+        if n==1 or n==2: return 1
+
+        first, second, third = 0, 1, 1
         
-        Solution.memo[n] = self.tribonacci(n-3) + self.tribonacci(n-2) + self.tribonacci(n-1)
-        return Solution.memo[n]
+        for i in range(3, n):
+            first, second, third = second, third, first+second+third
+        return first+second+third
