@@ -7,16 +7,16 @@
 
 class Solution:
     def guessNumber(self, n: int) -> int:
-        return self.set_range(n, 1, n)
+        return self.set_range(1, n)
         
-    def set_range(self, n, left, right):
+    def set_range(self, left, right):
         mid = int((left+right)/2)
 
         if guess(mid) == 0:
             return mid
         if guess(mid) == 1:
             left = mid + 1
-            return self.set_range(n, left, right)
+            return self.set_range(left, right)
         if guess(mid) == -1:
             right = mid - 1
-            return self.set_range(n, left, right)
+            return self.set_range(left, right)
