@@ -9,4 +9,4 @@ class Solution:
             next = a + b + c
             a, b, c = b, c, next
 
-        return c
+        return next
