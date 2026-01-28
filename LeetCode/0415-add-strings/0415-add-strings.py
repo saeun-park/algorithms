@@ -15,5 +15,5 @@ class Solution:
             i -= 1
             j -= 1
         if carry:
-            res.append(str(1))
+            res.append(str(carry))
         return "".join(res[::-1])
