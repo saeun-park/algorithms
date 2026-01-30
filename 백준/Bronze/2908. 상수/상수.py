@@ -1,4 +1,4 @@
-a, b = input().split()
+a, b = input().strip().split()
 
 rev_a = int(a[::-1])
 rev_b = int(b[::-1])
