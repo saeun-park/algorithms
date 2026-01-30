@@ -19,5 +19,5 @@ class Solution:
         while idx < len(res) and res[idx]==0:
             idx += 1
 
-        return result[idx:] if idx<len(res) else '0'
+        return "".join(map(str, res[idx:])) if idx<len(res) else '0'
 
