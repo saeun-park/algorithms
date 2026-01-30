@@ -4,11 +4,11 @@ for _ in range(n):
     test = input().strip()
     
     score = 0
-    pos = 0
+    streak = 0
     for i in range(len(test)):
         if test[i]=='O':
-            pos += 1
-            score += pos
+            streak += 1
+            score += streak
         else:
-            pos = 0
+            streak = 0
     print(score)
