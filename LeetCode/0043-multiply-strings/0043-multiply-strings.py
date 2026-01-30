@@ -12,8 +12,12 @@ class Solution:
                 s = (a*b)+int(res[i+j+1])
                 res[i+j+1] = s % 10
                 res[i+j] += s // 10
-        
 
-        res = "".join(map(str, res)).lstrip("0")
-        return res if res else "0"
+        result = "".join(map(str, res))
         
+        idx = 0
+        while idx < len(res) and res[idx]==0:
+            idx += 1
+
+        return result[idx:] if idx<len(res) else '0'
+
