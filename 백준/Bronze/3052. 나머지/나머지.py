@@ -1,4 +1,1 @@
-li = []
-for _ in range(10):
-    li.append(int(input())%42)
-print(len(set(li)))
+print(len(set(int(input())%42 for _ in range(10))))
