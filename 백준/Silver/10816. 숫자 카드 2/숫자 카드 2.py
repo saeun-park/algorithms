@@ -6,4 +6,5 @@ card = list(map(int, input().split()))
 
 count = Counter(sangeun)
 ans = [count[c] for c in card]
+
 print(*ans)
