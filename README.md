@@ -3,7 +3,6 @@
 본 저장소는 문제 풀이 및 알고리즘 개념 정리를 위한 공간입니다.
 프로그래머스, 백준, LeetCode를 활용하고 있습니다.
 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=ajsklaoao)](https://solved.ac/ajsklaoao/)
 
 <!-- <p align="left">
   <a href="https://leetcode.com/">
