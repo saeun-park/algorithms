@@ -4,7 +4,7 @@ class Solution:
         if n<3:
             return False
         
-        a, b = float(inf), float(inf)
+        a, b = float('inf'), float('inf')
 
         for num in nums:
             if num <= a:
