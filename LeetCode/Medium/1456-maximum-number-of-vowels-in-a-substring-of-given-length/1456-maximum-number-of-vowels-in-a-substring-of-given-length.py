@@ -9,6 +9,7 @@ class Solution:
             if w in vowel:
                 cnt += 1
         res = cnt
+
         for i in range(n-k):
             if s[i+k] in vowel:
                 cnt += 1
@@ -16,10 +17,7 @@ class Solution:
                 cnt -= 1
             
             res = max(res, cnt)
-
-        if k==1 and s in vowel:
-            return 1
-        
+            
         return res
 
         
