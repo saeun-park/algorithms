@@ -13,5 +13,4 @@ class Solution:
                     zero_cnt -= 1
                 left += 1
             max_len = max(max_len, right-left)
-
         return max_len
