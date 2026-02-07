@@ -19,5 +19,3 @@ class Solution:
             res = max(res, cnt)
             
         return res
-
-        
