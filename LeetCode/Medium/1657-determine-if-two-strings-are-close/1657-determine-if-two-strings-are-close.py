@@ -5,8 +5,7 @@ class Solution:
         
         dict1, dict2 = {}, {}
 
-        for i in range(len(word1)):
-            cur1, cur2 = word1[i], word2[i]
+        for cur1, cur2 in (word1, word2):
             dict1[cur1] = dict1.get(cur1, 0)+1
             dict2[cur2] = dict2.get(cur2, 0)+1
 
