@@ -9,10 +9,7 @@ class Solution:
         
         ans = 0
         for c in range(n):
-            li = []
-            for r in range(n):
-                li.append(grid[r][c])
-            col = tuple(li)
+            col = tuple(grid[r][c] for r in range(n))
             if col in row_count:
                 ans += row_count[col]
 
