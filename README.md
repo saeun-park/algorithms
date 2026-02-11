@@ -33,4 +33,3 @@ algorithms/
 
 [![My Skills](https://skillicons.dev/icons?i=java,py,mysql&theme=dark)](https://skillicons.dev)
 
----
