@@ -8,7 +8,7 @@ class Solution:
         length = 0
         node = head
         
-        if not head or not head.next:
+        if not head.next:
             return None
         
         while node:
