@@ -1,24 +1,25 @@
 class Solution:
     def asteroidCollision(self, asteroids: List[int]) -> List[int]:
-        n = len(asteroids)
-        stack = []
+            n = len(asteroids)
+            stack = []
 
-        for cur in asteroids:
-            alive = True
+            for a in asteroids:
+                alive = True
 
-            while stack and stack[-1] > 0 and cur < 0:
-                if stack[-1] + cur < 0:
-                    stack.pop()
-                    continue
-                elif stack[-1] == -cur:
-                    stack.pop()
-                    alive = False
-                    break
-                else:
-                    alive = False
-                    break
-            
-            if alive:
-                stack.append(cur)
+                # 충돌할 경우
+                while stack and a < 0 and stack[-1] > 0:
+                    if a + stack[-1] > 0 :
+                        alive = False
+                        break
+                    elif a + stack[-1] < 0:
+                        stack.pop()
+                        alive = True
+                    else:
+                        stack.pop()
+                        alive = False
+                        break
+                if alive:
+                    stack.append(a)
 
-        return stack
+            return stack
+        
