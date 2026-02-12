@@ -10,14 +10,14 @@ class Solution:
                 while stack and a < 0 and stack[-1] > 0:
                     if a + stack[-1] > 0 :
                         alive = False
-                        break
+                        # break
                     elif a + stack[-1] < 0:
                         stack.pop()
                         alive = True
                     else:
                         stack.pop()
                         alive = False
-                        break
+                        # break
                 if alive:
                     stack.append(a)
 
