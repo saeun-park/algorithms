@@ -6,8 +6,10 @@ class Solution:
         
         res = []
         q = deque([root])
+        # while 한 번 = 한 레벨 처리
         while q:
             level_size = len(q)
+            # 해당 레벨의 노드 수만큼 반복
             for i in range(level_size):
                 node = q.popleft()
                 if node.left:
