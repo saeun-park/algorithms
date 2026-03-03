@@ -34,26 +34,3 @@ algorithms/
 
 [![My Skills](https://skillicons.dev/icons?i=java,py,mysql&theme=dark)](https://skillicons.dev)
 
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Dynamic Programming
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
-## Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
-| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
-## Depth-First Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
-| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
-## Binary Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
-| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
-<!---LeetCode Topics End-->
