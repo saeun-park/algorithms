@@ -47,12 +47,14 @@ algorithms/
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
+| [0547-number-of-provinces](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0841-keys-and-rooms](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
+| [0547-number-of-provinces](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0841-keys-and-rooms](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 ## Binary Tree
@@ -68,5 +70,10 @@ algorithms/
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0547-number-of-provinces](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0841-keys-and-rooms](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0547-number-of-provinces](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 <!---LeetCode Topics End-->
