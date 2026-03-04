@@ -47,11 +47,13 @@ algorithms/
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
+| [0841-keys-and-rooms](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
+| [0841-keys-and-rooms](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
@@ -63,4 +65,8 @@ algorithms/
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0450-delete-node-in-a-bst](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/0450-delete-node-in-a-bst/) | Medium |
+## Graph Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0841-keys-and-rooms](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
 <!---LeetCode Topics End-->
