@@ -4,8 +4,10 @@ class Solution:
         graph = defaultdict(list)
 
         for a, b in connections:
-            graph[a].append((b, 1)) # 뒤집어야함 
-            graph[b].append((a, 0)) # 그대로 냅둠
+            # direction = 1  → 이 방향 그대로 두면 0으로 못 감 → 바꿔야 함
+            graph[a].append((b, 1))
+            # direction = 0  → 이미 0쪽으로 갈 수 있음 → 그대로
+            graph[b].append((a, 0))
 
         visited = [False]*n
         
@@ -18,7 +20,7 @@ class Solution:
             # 방향 바꿔야하는 경우에 cnt 더해가기
             for next_node, direction in graph[node]:
                 if not visited[next_node]:
-                    cnt += direction
+                    cnt += direction # direction이 1인 경우에 뒤집어야 하므로
                     cnt += dfs(next_node)
 
             return cnt
