@@ -4,9 +4,9 @@ class Solution:
         m, n = len(maze), len(maze[0])
         directions = [(1,0),(0,1),(-1,0),(0,-1)]
         q = deque()
-        r, c = entrance[0], entrance[1]
+        r, c = entrance
         q.append((r, c, 0))
-        # visited = [[False]*n for _ in range(m)]
+        
         visited = []
         for _ in range(m):
             visited.append([False]*n)
