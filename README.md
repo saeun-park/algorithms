@@ -32,22 +32,3 @@ algorithms/
 ### 사용 언어
 
 [![My Skills](https://skillicons.dev/icons?i=java,py,mysql&theme=dark)](https://skillicons.dev)
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0994-rotting-oranges](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
-| [1926-nearest-exit-from-entrance-in-maze](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/1926-nearest-exit-from-entrance-in-maze/) | Medium |
-## Breadth-First Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0994-rotting-oranges](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
-| [1926-nearest-exit-from-entrance-in-maze](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/1926-nearest-exit-from-entrance-in-maze/) | Medium |
-## Matrix
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0994-rotting-oranges](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
-| [1926-nearest-exit-from-entrance-in-maze](https://github.com/saeun-park/algorithms/tree/main/LeetCode/Medium/1926-nearest-exit-from-entrance-in-maze/) | Medium |
-<!---LeetCode Topics End-->
